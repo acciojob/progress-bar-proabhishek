@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #3498db;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.active, .circle:hover {
+    background: #3498db;
+    color: white;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
